@@ -1,0 +1,175 @@
+.ServiceInfo{
+    position: relative;
+    
+}
+/* Section Titles */
+.section--title {
+    color: var(--heading-color);
+    font-size: 50px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+  }
+  /* ServiceInfo Section Style */
+  .ServiceInfo--section {
+        margin: auto;
+        max-width: 1140px;
+        height: 1272px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 140px 120px 133.333px;
+        justify-content: space-between;
+    }
+    .ServiceInfo--section--content-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .ServiceInfo--section--content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .ServiceInfo--section--title {
+      color: #0F62FE;
+      font-size: 66px;
+      font-weight: 700;
+      line-height: 90px;
+      align-self: stretch;
+    }
+    .ServiceInfo--section--title--color {
+      color: var(--primary);
+    }
+    .ServiceInfo--section-description {
+      color: var(--darkblue);
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 36px;
+    }
+    
+    .ServiceInfo--section--img1 {
+        width: 600px;
+        height: 936px;
+        position: absolute;
+        top: 0px;
+        right: -150px;
+        
+    }
+    .img1{
+        position: absolute;
+    top: 10%;
+    left: 80%;
+    width: 80%;
+    height: auto;
+    }
+    .ServiceInfo--section--img2 {
+        width: 600px;
+        height: 936px;
+        position: absolute;
+        bottom: 0px;
+        left: -104px;
+    }
+    .img2{
+        position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    height: auto;
+    }
+    .ServiceInfo--section--img > img {
+      width: 100%;
+      height: 100%;
+    }
+    .text1{
+        font-size: 23px;
+        font-weight: 600;
+        line-height: 1.5;
+        color: rgb(51, 61, 75);
+        position: absolute;
+        width: 100%;
+    }
+    
+    @media only screen and (max-width: 1200px) {
+      .section--title,
+      .ServiceInfo--section--title,
+      .ServiceInfo--section-title--color {
+        text-align: center ;
+        justify-content: center;
+      }
+      .section--title {
+        font-size: 28px
+      }
+
+}
+
+
+    
+@media (max-width: 639px) {
+  .ServiceInfo--section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 5px;
+    height: 672px;
+  
+  }
+
+  .ServiceInfo {
+    height: 100%;
+  }
+
+  .ServiceInfo--section--title {
+    font-size: 35px
+  }
+  .imgs {
+    height: 370px;
+    margin-left: -24px;
+    overflow-x: visible;
+    overflow-y: hidden;
+  }
+  .ServiceInfo--section--img1{
+    position: static;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+  }
+  .ServiceInfo--section--img2{
+    position: static;
+    flex-shrink: 0;
+    margin-left: -100px;
+    max-width: 375px;
+    height: auto;
+}
+
+.img1{
+  position: absolute;
+top: 30%;
+left: -10%;
+width: 65%;
+height: auto;
+}
+
+.img2{
+  
+position: absolute;
+    top: 35%;
+    left: 40%;
+    width: 65%;
+    height: auto;
+}
+
+
+  .text {
+    position: static;
+    width: 100%;
+}
+}
