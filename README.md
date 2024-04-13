@@ -16,7 +16,7 @@
 ## 링크
 <a href="https://github.com/yj2dev/shrink-client">슈링크 클라이언트 레포지토리</a><br/>
 <a href="https://github.com/yj2dev/shrink-server">슈링크 서버 레포지토리</a>
-## 추가자료
+## 참고자료
 ![슬라이드7](https://github.com/yj2dev/shrink/assets/72322679/2b23c878-61aa-4760-ba4d-586c277522c8)
 ![슬라이드14](https://github.com/yj2dev/shrink/assets/72322679/d42186f6-07c5-45b6-a065-bf8be851e1c2)
 ![슬라이드18](https://github.com/yj2dev/shrink/assets/72322679/d0395f2c-8f6a-418b-b74b-04b023eb206d)
